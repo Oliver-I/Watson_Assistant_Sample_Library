@@ -1,0 +1,2279 @@
+{
+  "name": "support_business",
+  "intents": [
+    {
+      "intent": "General_Conversation-Work",
+      "examples": [
+        {
+          "text": "how do you feel about your job"
+        },
+        {
+          "text": "do you feel happy about your job?"
+        },
+        {
+          "text": "Do you like your work?"
+        },
+        {
+          "text": "do you hate your job?"
+        },
+        {
+          "text": "how do you feel about your work"
+        },
+        {
+          "text": "do you enjoy working"
+        },
+        {
+          "text": "do you enjoy your work"
+        },
+        {
+          "text": "do you like what you do"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Business_Information-Employment_Enquiry",
+      "examples": [
+        {
+          "text": "how can i get a job with your company"
+        },
+        {
+          "text": "are you hiring"
+        },
+        {
+          "text": "will you let me work for you"
+        },
+        {
+          "text": "can i send my resume"
+        },
+        {
+          "text": "is your company hiring"
+        },
+        {
+          "text": "will you hire me"
+        },
+        {
+          "text": "how do i get a job with you"
+        },
+        {
+          "text": "do you have career opportunities"
+        },
+        {
+          "text": "do you have any job opportunities"
+        },
+        {
+          "text": "there any jobs going"
+        },
+        {
+          "text": "i need a job"
+        },
+        {
+          "text": "do you have any roles available"
+        },
+        {
+          "text": "can i send you my cv"
+        }
+      ]
+    },
+    {
+      "intent": "General_Conversation-Feedback_Negative",
+      "examples": [
+        {
+          "text": "you are horrible"
+        },
+        {
+          "text": "You are talking rubbish"
+        },
+        {
+          "text": "this is trash"
+        },
+        {
+          "text": "you are bad"
+        },
+        {
+          "text": "I do not like you"
+        },
+        {
+          "text": "you are annoying"
+        },
+        {
+          "text": "You are useless"
+        },
+        {
+          "text": "You are rubbish"
+        },
+        {
+          "text": "This thing is rubbish"
+        },
+        {
+          "text": "This is useless"
+        },
+        {
+          "text": "you did not answer the question"
+        },
+        {
+          "text": "you are good for nothing"
+        },
+        {
+          "text": "you let me down"
+        },
+        {
+          "text": "i hate this"
+        },
+        {
+          "text": "i hate you"
+        },
+        {
+          "text": "you are repetitive"
+        },
+        {
+          "text": "you are repeating yourself"
+        },
+        {
+          "text": "you are not smart"
+        },
+        {
+          "text": "you irritate me"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Conversation-Customer_Emotion_Joy",
+      "examples": [
+        {
+          "text": "I am the happiest"
+        },
+        {
+          "text": "I am full of joy"
+        },
+        {
+          "text": "You made me feel happy"
+        },
+        {
+          "text": "My mood has improved"
+        },
+        {
+          "text": "I am feeling much happier"
+        },
+        {
+          "text": "I feel ecstatic today"
+        },
+        {
+          "text": "So happy right now"
+        },
+        {
+          "text": "I am thrilled"
+        },
+        {
+          "text": "I am feeling happy"
+        },
+        {
+          "text": "I am happy"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Conversation-Farewells",
+      "examples": [
+        {
+          "text": "good night"
+        },
+        {
+          "text": "I'll be going now"
+        },
+        {
+          "text": "so long"
+        },
+        {
+          "text": "goodbye"
+        },
+        {
+          "text": "bye"
+        },
+        {
+          "text": "farewell"
+        },
+        {
+          "text": "let's end this"
+        },
+        {
+          "text": "I have got to go now"
+        },
+        {
+          "text": "see ya later"
+        }
+      ]
+    },
+    {
+      "intent": "General_Conversation-VA_State",
+      "examples": [
+        {
+          "text": "have you been well"
+        },
+        {
+          "text": "how are you this evening"
+        },
+        {
+          "text": "how are you feeling"
+        },
+        {
+          "text": "is everything alright"
+        },
+        {
+          "text": "how is everything"
+        },
+        {
+          "text": "how you going"
+        },
+        {
+          "text": "everything is ok?"
+        },
+        {
+          "text": "are you fine"
+        },
+        {
+          "text": "How are you?"
+        },
+        {
+          "text": "how are things with you"
+        },
+        {
+          "text": "how you doing"
+        },
+        {
+          "text": "how goes it"
+        },
+        {
+          "text": "how is your day going"
+        },
+        {
+          "text": "how was your day"
+        },
+        {
+          "text": "are you doing alright"
+        },
+        {
+          "text": "how is yourself"
+        },
+        {
+          "text": "have you been good"
+        }
+      ],
+      "description": "Asking the VA how they are"
+    },
+    {
+      "intent": "General_Conversation-About_VAs",
+      "examples": [
+        {
+          "text": "what is a virtual agent"
+        },
+        {
+          "text": "what is a virtual assistant"
+        },
+        {
+          "text": "what is an online assistant"
+        },
+        {
+          "text": "are virtual assistants robots"
+        },
+        {
+          "text": "are virtual agents real people"
+        },
+        {
+          "text": "what does the virtual agent mean"
+        },
+        {
+          "text": "what can a virtual assistant do"
+        }
+      ]
+    },
+    {
+      "intent": "Business_Information-Products",
+      "examples": [
+        {
+          "text": "are there any clearance items"
+        },
+        {
+          "text": "what is on sale this week"
+        },
+        {
+          "text": "what can I purchase from your store"
+        },
+        {
+          "text": "what can I buy"
+        },
+        {
+          "text": "product range available"
+        },
+        {
+          "text": "items you sell"
+        },
+        {
+          "text": "do you have a sale on"
+        },
+        {
+          "text": "do you have any sale items"
+        },
+        {
+          "text": "do you sell"
+        },
+        {
+          "text": "are your products available at all stores"
+        },
+        {
+          "text": "what are your products"
+        },
+        {
+          "text": "range of products"
+        },
+        {
+          "text": "what do you sell"
+        },
+        {
+          "text": "what is on sale today"
+        },
+        {
+          "text": "items on sale"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Business_Information-Find_Nearest_Location",
+      "examples": [
+        {
+          "text": "can i go to a shop close by"
+        },
+        {
+          "text": "is there a location nearby"
+        },
+        {
+          "text": "where is the nearest store"
+        },
+        {
+          "text": "closest shop"
+        },
+        {
+          "text": "are you located nearby"
+        },
+        {
+          "text": "where is the closest shop"
+        },
+        {
+          "text": "do you have nearby locations"
+        },
+        {
+          "text": "nearest location"
+        },
+        {
+          "text": "do i need to travel far to your shops"
+        },
+        {
+          "text": "do you have a store nearby"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Business_Information-Contact_Us",
+      "examples": [
+        {
+          "text": "what is email address for a customer service enquiry"
+        },
+        {
+          "text": "what are your contact details"
+        },
+        {
+          "text": "How do I email customer  service"
+        },
+        {
+          "text": "customer service email address"
+        },
+        {
+          "text": "can I talk to someone?"
+        },
+        {
+          "text": "I need a SMS number customer service"
+        },
+        {
+          "text": "How can I contact you"
+        },
+        {
+          "text": "can I email you?"
+        }
+      ]
+    },
+    {
+      "intent": "Business_Information-Location",
+      "examples": [
+        {
+          "text": "do you have a physical location"
+        },
+        {
+          "text": "how far away are you"
+        },
+        {
+          "text": "do you have stores in sydney"
+        },
+        {
+          "text": "do you have a shop in new york"
+        },
+        {
+          "text": "how far is your location"
+        },
+        {
+          "text": "where are you located"
+        },
+        {
+          "text": "where are your office locations"
+        },
+        {
+          "text": "where is your boston office"
+        },
+        {
+          "text": "are you located in los angeles"
+        },
+        {
+          "text": "are you located in my city"
+        },
+        {
+          "text": "how far is your shop"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Business_Information-About_Company",
+      "examples": [
+        {
+          "text": "when did the company start"
+        },
+        {
+          "text": "Tell me about your company"
+        },
+        {
+          "text": "when was the company founded"
+        },
+        {
+          "text": "what is your history"
+        },
+        {
+          "text": "what year did the company form"
+        },
+        {
+          "text": "where did the company start"
+        },
+        {
+          "text": "what does the copany do"
+        },
+        {
+          "text": "what do you sell"
+        },
+        {
+          "text": "what is this company about"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Business_Information-Phone_Number",
+      "examples": [
+        {
+          "text": "what is the customer service number"
+        },
+        {
+          "text": "how can i call your new york store"
+        },
+        {
+          "text": "what is your customer support line"
+        },
+        {
+          "text": "what is your support phone number"
+        },
+        {
+          "text": "what is your phone number"
+        },
+        {
+          "text": "what number can I call for los angeles"
+        },
+        {
+          "text": "do you have a 1 800 number ?"
+        },
+        {
+          "text": "what is the phone line I can call"
+        },
+        {
+          "text": "do you have a number I can call"
+        },
+        {
+          "text": "do you have a direct line to your boston office"
+        },
+        {
+          "text": "do you have a 1-800 number"
+        },
+        {
+          "text": "do you have a toll free number"
+        },
+        {
+          "text": "what is the service number"
+        },
+        {
+          "text": "I want to call you"
+        },
+        {
+          "text": "what is the enquiries line"
+        },
+        {
+          "text": "can i call direct to your stores"
+        },
+        {
+          "text": "can i call directly to your sydney store"
+        },
+        {
+          "text": "do you have a phone number"
+        },
+        {
+          "text": "what is your number"
+        },
+        {
+          "text": "what is the toll free number"
+        },
+        {
+          "text": "What is the phone number for customer service?"
+        },
+        {
+          "text": "what is the number for your new york location"
+        },
+        {
+          "text": "what is the phone number for your store"
+        },
+        {
+          "text": "do you have a 1-888 number"
+        }
+      ]
+    },
+    {
+      "intent": "General_Conversation-Customer_Emotion_Anger",
+      "examples": [
+        {
+          "text": "I am feeling very angry"
+        },
+        {
+          "text": "I am enraged"
+        },
+        {
+          "text": "I am so annoyed"
+        },
+        {
+          "text": "I am getting annoyed"
+        },
+        {
+          "text": "I am so angry"
+        },
+        {
+          "text": "i am fed up"
+        },
+        {
+          "text": "I am angry"
+        },
+        {
+          "text": "I feel fed up"
+        },
+        {
+          "text": "I am so mad right now"
+        },
+        {
+          "text": "Right now I'm enraged"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Conversation-About_The_VA",
+      "examples": [
+        {
+          "text": "you did not tell me your name"
+        },
+        {
+          "text": "I do not know who this is"
+        },
+        {
+          "text": "do you know who you are"
+        },
+        {
+          "text": "what is your designation"
+        },
+        {
+          "text": "who are you"
+        },
+        {
+          "text": "what's your name"
+        },
+        {
+          "text": "what is your name"
+        },
+        {
+          "text": "who am I talking to"
+        },
+        {
+          "text": "what are you called"
+        },
+        {
+          "text": "you did not introduce yourself"
+        },
+        {
+          "text": "your name please"
+        },
+        {
+          "text": "who is talking"
+        },
+        {
+          "text": "who are you again"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Conversation-Greetings",
+      "examples": [
+        {
+          "text": "good afternoon"
+        },
+        {
+          "text": "greetings"
+        },
+        {
+          "text": "good evening"
+        },
+        {
+          "text": "and helllo to you"
+        },
+        {
+          "text": "hello"
+        },
+        {
+          "text": "hi there"
+        },
+        {
+          "text": "what's up"
+        },
+        {
+          "text": "what is up"
+        },
+        {
+          "text": "wassup"
+        },
+        {
+          "text": "good morning"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Business_Information-Business_Hours",
+      "examples": [
+        {
+          "text": "are you open"
+        },
+        {
+          "text": "hours of operation"
+        },
+        {
+          "text": "what are your business hours"
+        },
+        {
+          "text": "are you open on weekends"
+        },
+        {
+          "text": "are you open 24 hours"
+        },
+        {
+          "text": "hours open"
+        },
+        {
+          "text": "are you closed?"
+        },
+        {
+          "text": "whan do your offices close"
+        },
+        {
+          "text": "when does your branch open"
+        },
+        {
+          "text": "what time do you open"
+        },
+        {
+          "text": "working hours"
+        },
+        {
+          "text": "what time do you close"
+        }
+      ]
+    },
+    {
+      "intent": "Business_Information-Website_Pages",
+      "examples": [
+        {
+          "text": "I can't find the URL"
+        },
+        {
+          "text": "your link is missing"
+        },
+        {
+          "text": "I can't find the link"
+        },
+        {
+          "text": "what is the URL for the page"
+        },
+        {
+          "text": "where is the page"
+        },
+        {
+          "text": "how do i get to the page"
+        },
+        {
+          "text": "I can't find the page"
+        },
+        {
+          "text": "I don't see a link anywhere"
+        },
+        {
+          "text": "where is the accounts page"
+        },
+        {
+          "text": "where is your products page"
+        },
+        {
+          "text": "where is your Partners page"
+        },
+        {
+          "text": "where is the link"
+        },
+        {
+          "text": "is your web page missing"
+        },
+        {
+          "text": "how do I find the web page"
+        },
+        {
+          "text": "how do I find the URL"
+        },
+        {
+          "text": "what's the page URL"
+        },
+        {
+          "text": "I can't click on a link"
+        },
+        {
+          "text": "the link isn't there"
+        },
+        {
+          "text": "you should provide a link to the page"
+        },
+        {
+          "text": "your page is missing"
+        },
+        {
+          "text": "how do i find the link"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Conversation-Thanks",
+      "examples": [
+        {
+          "text": "Thanks"
+        },
+        {
+          "text": "coolio"
+        },
+        {
+          "text": "thank you"
+        },
+        {
+          "text": "coolies"
+        },
+        {
+          "text": "ta"
+        },
+        {
+          "text": "cool"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Business_Information-Services",
+      "examples": [
+        {
+          "text": "service available to me"
+        },
+        {
+          "text": "can I get that from your sydney office"
+        },
+        {
+          "text": "is that available at your los angeles location"
+        },
+        {
+          "text": "what services do you provide"
+        },
+        {
+          "text": "do you provide a specific service at your new york store"
+        }
+      ]
+    },
+    {
+      "intent": "General_Conversation-Movies",
+      "examples": [
+        {
+          "text": "What do you like about movies"
+        },
+        {
+          "text": "let's go to the movies!"
+        },
+        {
+          "text": "Let us talk about movies"
+        },
+        {
+          "text": "Do you like watching films"
+        },
+        {
+          "text": "have you seen any good movies"
+        },
+        {
+          "text": "What was the last movie you saw?"
+        },
+        {
+          "text": "Do you like movies"
+        },
+        {
+          "text": "What are your thoughts on movies?"
+        },
+        {
+          "text": "Do you enjoy watching films"
+        },
+        {
+          "text": "What are your thoughts on watching films"
+        },
+        {
+          "text": "What are your thoughts on movies generally?"
+        },
+        {
+          "text": "What do you think about movies?"
+        },
+        {
+          "text": "You said you liked movies"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Conversation-Feedback_Positive",
+      "examples": [
+        {
+          "text": "you are fabulous"
+        },
+        {
+          "text": "You are one of the coolest"
+        },
+        {
+          "text": "i like you"
+        },
+        {
+          "text": "you are awesome"
+        },
+        {
+          "text": "you are mesmerizing"
+        },
+        {
+          "text": "you are doing quite well"
+        },
+        {
+          "text": "you are doing really well"
+        },
+        {
+          "text": "you sound good"
+        },
+        {
+          "text": "how cool is this"
+        },
+        {
+          "text": "You really are good"
+        },
+        {
+          "text": "You are good"
+        },
+        {
+          "text": "you are really smart"
+        },
+        {
+          "text": "that was a great answer"
+        },
+        {
+          "text": "you are intelligent"
+        },
+        {
+          "text": "you rock"
+        },
+        {
+          "text": "this is great"
+        },
+        {
+          "text": "this is fantastic"
+        },
+        {
+          "text": "this is cool"
+        },
+        {
+          "text": "i like this"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Conversation-Time",
+      "examples": [
+        {
+          "text": "is it morning"
+        },
+        {
+          "text": "do you have the time"
+        },
+        {
+          "text": "is it time for lunch"
+        },
+        {
+          "text": "is it dinner time now"
+        },
+        {
+          "text": "do you know the time"
+        },
+        {
+          "text": "What time is it?"
+        },
+        {
+          "text": "what is the time"
+        },
+        {
+          "text": "it is breakfast time yet"
+        },
+        {
+          "text": "is it evening yet"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "ResponseTypes",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "negative",
+          "synonyms": [
+            "no",
+            "nope",
+            "noppers",
+            "not at all",
+            "definitely not",
+            "not even close",
+            "no way",
+            "n",
+            "don't do it",
+            "don't do that",
+            "nopers",
+            "don't even think about it",
+            "na",
+            "nah",
+            "sure isn't",
+            "you're joking",
+            "is that a joke",
+            "incorrect"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Other",
+          "synonyms": [
+            "other",
+            "different",
+            "none of the above",
+            "not any of",
+            "neither of",
+            "not there",
+            "none"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "positive",
+          "synonyms": [
+            "yes",
+            "yep",
+            "yeppers",
+            "totally",
+            "definitely",
+            "absolutely",
+            "yeah",
+            "y",
+            "sure",
+            "go ahead",
+            "go on",
+            "go right ahead",
+            "ya",
+            "yah",
+            "ok",
+            "okay",
+            "yup",
+            "yer",
+            "you bet",
+            "you betcha",
+            "sounds about right",
+            "sounds right",
+            "sure is",
+            "100%",
+            "mhm",
+            "correct"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "uncertain",
+          "synonyms": [
+            "uncertain",
+            "not sure",
+            "don't know",
+            "no idea",
+            "unknown",
+            "maybe",
+            "could be",
+            "on the fence",
+            "unsure",
+            "i guess so",
+            "i guess it is",
+            "i think so",
+            "i think it is"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-person",
+      "values": []
+    },
+    {
+      "entity": "contact_type",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "email",
+          "synonyms": [
+            "contact email",
+            "electronic mail",
+            "email address"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "social_media",
+          "synonyms": [
+            "facebook",
+            "linkedin",
+            "linked in",
+            "social page",
+            "twitter",
+            "instagram",
+            "you tube",
+            "youtube",
+            "google plus",
+            "google +"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "SMS",
+          "synonyms": [
+            "phone message",
+            "text message"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "address",
+          "synonyms": [
+            "address",
+            "branch",
+            "branches",
+            "location",
+            "locations",
+            "office",
+            "offices",
+            "physical location",
+            "physical locations",
+            "shopfront",
+            "shop front",
+            "shopfronts",
+            "shop fronts",
+            "located",
+            "situated",
+            "in person",
+            "face to face",
+            "drop in",
+            "stop by"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "call",
+          "synonyms": [
+            "0800",
+            "1 800",
+            "number",
+            "phone",
+            "phone number",
+            "phone numbers",
+            "ring",
+            "toll free",
+            "toll free number",
+            "contact number",
+            "service number",
+            "talk to"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "sys-number",
+      "values": []
+    },
+    {
+      "entity": "sys-time",
+      "values": []
+    },
+    {
+      "entity": "sys-currency",
+      "values": []
+    },
+    {
+      "entity": "sys-location",
+      "values": []
+    },
+    {
+      "entity": "sys-date",
+      "values": []
+    },
+    {
+      "entity": "sys-percentage",
+      "values": []
+    }
+  ],
+  "language": "en",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-07-10"
+    },
+    "digressions": true
+  },
+  "description": "Credit Card Banking Support Agent to assist with Sales And Service, created by Oliver Ivanoski and Steve Green",
+  "dialog_nodes": [
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "We have branches across the country, but our primary offices are in California, Texas, New York and Florida. In which state would you like our location details?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_12_1487648872494",
+      "disabled": true,
+      "metadata": {},
+      "conditions": "",
+      "dialog_node": "node_14_1487650172949",
+      "previous_sibling": "node_3_1507606282641"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            ""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_12_1487648872494",
+      "context": {
+        "office_location": "Other"
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_3_1510537559001"
+      },
+      "conditions": "true",
+      "dialog_node": "node_3_1507606282641",
+      "previous_sibling": "node_1_1507605880866"
+    },
+    {
+      "type": "standard",
+      "title": "Determine If Valid State Entered",
+      "output": {
+        "text": {
+          "values": [
+            ""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_12_1487648872494",
+      "context": {
+        "office_location": "@Valid_States"
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "@Valid_States",
+      "dialog_node": "node_1_1507605880866"
+    },
+    {
+      "type": "standard",
+      "title": "Confirming Live Agent Transfer",
+      "output": {
+        "text": {
+          "values": [
+            "Should I transfer you now?"
+          ],
+          "selection_policy": "sequential"
+        },
+        "ui_action": {
+          "notification_display": {
+            "DisplayText": "The virtual assistant can hand off seamlessly to a live agent who can then address the user."
+          }
+        }
+      },
+      "parent": "node_16_1516311593513",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_25_1516679473977"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Our business hours differ for our offices and our Service Center. How would you like to contact us, via a phone call, or visit our office?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_4_1487301902930",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_11_1510539519578"
+      },
+      "conditions": "true",
+      "dialog_node": "node_16_1518577692900",
+      "previous_sibling": "node_11_1510539519578"
+    },
+    {
+      "type": "standard",
+      "title": "Determine The Business Hours Contact Channel",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_4_1487301902930",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_11_1487648591435"
+      },
+      "conditions": "@contact_type",
+      "dialog_node": "node_11_1510539519578"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Let's keep talking, perhaps ask the question in a different way so that I can help you."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_25_1516679473977",
+      "metadata": {},
+      "conditions": "@ResponseTypes:negative || @ResponseTypes:uncertain || @ResponseTypes:Other",
+      "dialog_node": "node_22_1516678490511",
+      "previous_sibling": "node_21_1516678462050"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            ""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_25_1516679473977",
+      "context": {
+        "liveagent_transfer": "yes"
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1518731420715"
+      },
+      "conditions": "@ResponseTypes:positive",
+      "dialog_node": "node_21_1516678462050"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "< Initiate Agent Transfer at this point>"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1518731420715",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_4_1518732007439"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "You can contact us on 888-444-555-777.  Our service agents are available from 7am - 8pm, Mon - Fri and 10am - 4pm, Sat."
+          ]
+        }
+      },
+      "parent": "node_4_1510537706756",
+      "metadata": {},
+      "conditions": "$office_location == \"FL\"",
+      "dialog_node": "node_7_1510537877221",
+      "previous_sibling": "node_6_1510537864549"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "You can contact us on 888-444-555-888.  Our service agents are available from 7am - 8pm, Mon - Fri and 10am - 4pm, Sat."
+          ]
+        }
+      },
+      "parent": "node_4_1510537706756",
+      "metadata": {},
+      "conditions": "$office_location == \"Other\"",
+      "dialog_node": "node_2_1519012848481",
+      "previous_sibling": "node_7_1510537877221"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "You can contacts us on 888-45678.  Our service agents are available from 8am - 9pm, Mon - Fri."
+          ]
+        }
+      },
+      "parent": "node_4_1510537706756",
+      "metadata": {},
+      "conditions": "$office_location == \"NY\"",
+      "dialog_node": "node_6_1510537864549",
+      "previous_sibling": "node_5_1510537847455"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "You can contact us on 888-111-222-333. Our service agents are available from 7am - 8pm, Mon - Fri."
+          ]
+        }
+      },
+      "parent": "node_4_1510537706756",
+      "metadata": {},
+      "conditions": "$office_location == \"CA\" || $office_location == \"TX\"",
+      "dialog_node": "node_5_1510537847455"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Our $office_location office location is 132 14th Ave.  We are open from 9:30am - 6pm, Mon - Fri."
+          ]
+        }
+      },
+      "parent": "node_2_1507606231217",
+      "metadata": {},
+      "conditions": "$office_location == \"FL\"",
+      "dialog_node": "node_9_1510537957739",
+      "previous_sibling": "node_8_1510537929948"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "The branch address is 132 14th Ave.  We are open from 10am - 5pm, Mon - Fri and 10am - 3pm, Sat."
+          ]
+        }
+      },
+      "parent": "node_2_1507606231217",
+      "metadata": {},
+      "conditions": "$office_location == \"TX\"",
+      "dialog_node": "node_8_1510537929948",
+      "previous_sibling": "node_2_1507613478259"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Our $office_location office location is 132 14th Ave.  We are open from 8:30am - 5pm, Mon - Fri."
+          ]
+        }
+      },
+      "parent": "node_2_1507606231217",
+      "metadata": {},
+      "conditions": "$office_location == \"NY\"",
+      "dialog_node": "node_2_1507613478259",
+      "previous_sibling": "node_1_1507613449407"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Our address is 132 14th Ave. We are open from 9am - 5pm, Mon - Fri."
+          ]
+        }
+      },
+      "parent": "node_2_1507606231217",
+      "metadata": {},
+      "conditions": "$office_location == \"Other\"",
+      "dialog_node": "node_1_1519012789315",
+      "previous_sibling": "node_9_1510537957739"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Our branch address is 132 14th Ave. We are open from 9am - 5pm, Mon - Fri."
+          ]
+        }
+      },
+      "parent": "node_2_1507606231217",
+      "metadata": {},
+      "conditions": "$office_location == \"CA\"",
+      "dialog_node": "node_1_1507613449407"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "You can contact us a number of ways. You can call us, send an email or visit us on our social media page.  How would you like to reach us?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_5_1487301903962",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_11_1487648591435"
+      },
+      "conditions": "true",
+      "dialog_node": "node_17_1487302166395",
+      "previous_sibling": "node_11_1487648591435"
+    },
+    {
+      "type": "standard",
+      "title": "Determine The Contact Channel",
+      "output": {},
+      "parent": "node_5_1487301903962",
+      "metadata": {},
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "@contact_type",
+      "dialog_node": "node_11_1487648591435"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "I'm not sure what you mean. I'm still in training and learning more each day to help you with your enquiries."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_20_1516312171869",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_5_1516596837838"
+    },
+    {
+      "type": "standard",
+      "title": "Sample Customized Responses To Assist User",
+      "output": {},
+      "parent": "node_2_1487301792316",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "true",
+      "dialog_node": "node_20_1516312171869",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_16_1516311593513"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "I'm not sure what you mean. You may benefit from talking to our Customer Service agents."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1487301792316",
+      "metadata": {},
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "$off_topic_counter > 1",
+      "dialog_node": "node_16_1516311593513",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "For more information about our Products or Services, simply go to our website. We have a great range to suit your needs. You can also speak to one of our Customer Service Agents."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_13_1518148366245",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_25_1516679473977"
+      },
+      "conditions": "#Business_Information-Products || #Business_Information-Services",
+      "dialog_node": "node_36_1519080540659"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "I am glad to hear that! We take customer satisfaction very seriously."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_34_1517953592593",
+      "metadata": {},
+      "conditions": "#General_Conversation-Customer_Emotion_Joy || #General_Conversation-Feedback_Positive",
+      "dialog_node": "node_80_1519099536094",
+      "previous_sibling": "node_79_1519099258303"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "I am a Virtual Agent. I can help you with questions."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_34_1517953592593",
+      "metadata": {},
+      "conditions": "#General_Conversation-About_The_VA",
+      "dialog_node": "node_1_1519888551970",
+      "previous_sibling": "node_4_1519356290479"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "I'm sorry to hear that, we take customer satisfaction very seriously. You should talk to one of our helpful Customer Service Agents to help you get the information you need."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_34_1517953592593",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_25_1516679473977"
+      },
+      "conditions": "#General_Conversation-Customer_Emotion_Anger || #General_Conversation-Feedback_Negative",
+      "dialog_node": "node_79_1519099258303",
+      "previous_sibling": "node_78_1519099085637"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "node_34_1517953592593",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@ResponseTypes",
+      "dialog_node": "node_28_1518664452240",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_2_1518575329766"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "I love answering questions and making sure you get the information you need!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_34_1517953592593",
+      "metadata": {},
+      "conditions": "#General_Conversation-Work",
+      "dialog_node": "node_78_1519099085637",
+      "previous_sibling": "node_77_1519098560755"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "I'm happy to help!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_34_1517953592593",
+      "metadata": {},
+      "conditions": "#General_Conversation-Thanks",
+      "dialog_node": "node_2_1518575329766",
+      "previous_sibling": "node_1_1518575308706"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Unfortunately I don't have a chance to watch movies as I'm busy doing what I enjoy - answering questions."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_34_1517953592593",
+      "metadata": {},
+      "conditions": "#General_Conversation-Movies",
+      "dialog_node": "node_77_1519098560755",
+      "previous_sibling": "node_76_1519098077834"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "I don't know the time where you are, my system says the time is <? now().reformatDateTime('h:mm a') ?>. But I'd prefer to talk about our products instead."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_34_1517953592593",
+      "metadata": {},
+      "conditions": "#General_Conversation-Time",
+      "dialog_node": "node_76_1519098077834",
+      "previous_sibling": "node_39_1519081164195"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "A virtual agent (sometimes called a virtual assistant) is an online system designed to help your find information quickly and easily."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_34_1517953592593",
+      "metadata": {},
+      "conditions": "#General_Conversation-About_VAs",
+      "dialog_node": "node_39_1519081164195",
+      "previous_sibling": "node_28_1518664452240"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "I love talking about our products and services! Let's talk some more and help you with your questions!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_34_1517953592593",
+      "metadata": {},
+      "conditions": "#General_Conversation-VA_State",
+      "dialog_node": "node_4_1519356290479",
+      "previous_sibling": "node_80_1519099536094"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Hello!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_34_1517953592593",
+      "metadata": {},
+      "conditions": "#General_Conversation-Greetings",
+      "dialog_node": "node_1_1518575308706",
+      "previous_sibling": "node_35_1517953626335"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Goodbye, I look forward to helping you again!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_34_1517953592593",
+      "metadata": {},
+      "conditions": "#General_Conversation-Farewells",
+      "dialog_node": "node_35_1517953626335"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": []
+        }
+      },
+      "parent": "Start and Initialize Context",
+      "context": {
+        "change_type": "",
+        "office_location": "",
+        "contact_requested": "",
+        "location_mentioned": ""
+      },
+      "disabled": true,
+      "metadata": {},
+      "conditions": "",
+      "dialog_node": "node_27_1487303778095"
+    },
+    {
+      "type": "standard",
+      "title": "Provide Details",
+      "output": {},
+      "parent": "node_1_1507605880866",
+      "metadata": {},
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "true",
+      "dialog_node": "node_3_1510537559001"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "No? Let's talk a bit more about credit cards."
+          ]
+        }
+      },
+      "parent": "node_28_1518664452240",
+      "metadata": {},
+      "conditions": "@ResponseTypes:negative",
+      "dialog_node": "node_30_1518664482851",
+      "previous_sibling": "node_29_1518664472916"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Not sure? Let's talk a bit more about credit cards."
+          ]
+        }
+      },
+      "parent": "node_28_1518664452240",
+      "metadata": {},
+      "conditions": "@ResponseTypes:uncertain",
+      "dialog_node": "node_31_1518664493416",
+      "previous_sibling": "node_30_1518664482851"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Yes? Let's talk a bit more about credit cards."
+          ]
+        }
+      },
+      "parent": "node_28_1518664452240",
+      "metadata": {},
+      "conditions": "@ResponseTypes:positive",
+      "dialog_node": "node_29_1518664472916"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_11_1487648591435",
+      "context": {
+        "contact_requested": "phone_call"
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_16_1487650405878"
+      },
+      "conditions": "@contact_type:call",
+      "dialog_node": "node_13_1487302033896",
+      "previous_sibling": "node_12_1487648872494"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "You can visit our social media page on various platforms."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_11_1487648591435",
+      "context": {
+        "contact_requested": "social_media"
+      },
+      "metadata": {},
+      "conditions": "@contact_type:social_media",
+      "dialog_node": "node_16_1487302102162",
+      "previous_sibling": "node_15_1487302075504"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "We have branches across the country, but our primary offices are in California, Texas, New York and Florida. In which state would you like to call us?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_11_1487648591435",
+      "metadata": {},
+      "conditions": "$contact_requested == \"phone_call\" && $office_location == \"\"",
+      "dialog_node": "node_16_1487650405878",
+      "previous_sibling": "node_8_1487646837898"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_11_1487648591435",
+      "context": {
+        "contact_requested": "office"
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_12_1487648872494"
+      },
+      "conditions": "@contact_type:address",
+      "dialog_node": "node_8_1487646837898",
+      "previous_sibling": "node_13_1487302033896"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "You can message our service department on 1800-123-456-7890."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_11_1487648591435",
+      "context": {
+        "contact_requested": "SMS"
+      },
+      "metadata": {},
+      "conditions": " @contact_type:SMS",
+      "dialog_node": "node_15_1487302075504",
+      "previous_sibling": "node_14_1487302059957"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "You can contact our service department on the Service email."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_11_1487648591435",
+      "context": {
+        "contact_requested": "email"
+      },
+      "metadata": {},
+      "conditions": " @contact_type:email",
+      "dialog_node": "node_14_1487302059957",
+      "previous_sibling": "node_16_1487650405878"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "We have branches across the country, but our primary offices are in California, Texas, New York and Florida. In which state would you like our location details?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_11_1487648591435",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "$contact_requested == \"office\" && $office_location == \"\"",
+      "dialog_node": "node_12_1487648872494",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "You can read about our company's history and our commitment to customer service on our About Us page."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_13_1517313761365",
+      "metadata": {},
+      "conditions": "#Business_Information-About_Company",
+      "dialog_node": "node_34_1519080264103",
+      "previous_sibling": "node_4_1487301902930"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "node_13_1517313761365",
+      "metadata": {},
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#Business_Information-Contact_Us",
+      "dialog_node": "node_5_1487301903962",
+      "digress_out": "allow_all_never_return",
+      "previous_sibling": "node_2_1510537331912"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "node_13_1517313761365",
+      "context": {
+        "contact_requested": "phone_call"
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_16_1487650405878"
+      },
+      "conditions": "#Business_Information-Phone_Number",
+      "dialog_node": "node_2_1510537331912",
+      "digress_out": "allow_all_never_return",
+      "previous_sibling": "node_10_1510538100098"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "node_13_1517313761365",
+      "metadata": {},
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#Business_Information-Business_Hours",
+      "dialog_node": "node_4_1487301902930",
+      "digress_out": "allow_all_never_return",
+      "previous_sibling": "node_5_1487301903962"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "You can find out about our exciting employment opportunities on our Employment page."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_13_1517313761365",
+      "metadata": {},
+      "conditions": "#Business_Information-Employment_Enquiry",
+      "dialog_node": "node_35_1519080366385",
+      "previous_sibling": "node_34_1519080264103"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "For demonstration purposes we don't provide links to other pages. The answers provided are an example of conversational interactions."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_13_1517313761365",
+      "metadata": {},
+      "conditions": "#Business_Information-Website_Pages",
+      "dialog_node": "node_8_1519705841063",
+      "previous_sibling": "node_35_1519080366385"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "node_13_1517313761365",
+      "context": {
+        "contact_requested": "office"
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_11_1487648591435"
+      },
+      "conditions": "#Business_Information-Find_Nearest_Location || #Business_Information-Location",
+      "dialog_node": "node_10_1510538100098",
+      "digress_out": "allow_all_never_return"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "node_16_1487650405878",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_1_1507605880866"
+      },
+      "conditions": "true",
+      "dialog_node": "node_1_1510537164238"
+    },
+    {
+      "type": "standard",
+      "title": "Provide Phone Details",
+      "output": {},
+      "parent": "node_3_1510537559001",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "$contact_requested == \"phone_call\"",
+      "dialog_node": "node_4_1510537706756",
+      "previous_sibling": "node_2_1507606231217"
+    },
+    {
+      "type": "standard",
+      "title": "Provide Address Details",
+      "output": {},
+      "parent": "node_3_1510537559001",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "$contact_requested == \"office\"",
+      "dialog_node": "node_2_1507606231217"
+    },
+    {
+      "type": "standard",
+      "title": "Live Agent Transfer - No Digressions Return",
+      "output": {
+        "text": {
+          "values": [
+            "Okay, I'll transfer you now."
+          ],
+          "selection_policy": "sequential"
+        },
+        "ui_action": {
+          "connect_agent": {}
+        }
+      },
+      "context": {},
+      "metadata": {},
+      "conditions": "$liveagent_transfer == \"yes\"",
+      "digress_in": "not_available",
+      "dialog_node": "node_2_1518731420715",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_2_1487301792316"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "context": {
+        "off_topic_counter": "<? context['off_topic_counter'] + 1 ?>"
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "anything_else",
+      "digress_in": "returns",
+      "dialog_node": "node_2_1487301792316",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_13_1518148366245"
+    },
+    {
+      "type": "folder",
+      "title": "Products Sales",
+      "metadata": {},
+      "digress_in": "returns",
+      "dialog_node": "node_13_1518148366245",
+      "previous_sibling": "node_34_1517953592593"
+    },
+    {
+      "type": "folder",
+      "title": "Business Information",
+      "metadata": {},
+      "digress_in": "returns",
+      "dialog_node": "node_13_1517313761365",
+      "previous_sibling": "Start and Initialize Context"
+    },
+    {
+      "type": "folder",
+      "title": "General Conversation",
+      "metadata": {},
+      "digress_in": "returns",
+      "dialog_node": "node_34_1517953592593",
+      "previous_sibling": "node_13_1517313761365"
+    },
+    {
+      "type": "standard",
+      "title": "Start and Initialize Context",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello, I am the Virtual Agent. I can help you with questions about the organisation."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Some of the things I can assist you with are:",
+            "options": [
+              {
+                "label": "How to contact our organisation",
+                "value": {
+                  "input": {
+                    "text": "How to contact our organisation"
+                  }
+                }
+              },
+              {
+                "label": "The organisation's business hours",
+                "value": {
+                  "input": {
+                    "text": "The organisation's business hours"
+                  }
+                }
+              },
+              {
+                "label": "Products and servies we have to offer",
+                "value": {
+                  "input": {
+                    "text": "Products and servies we have to offer"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "context": {
+        "office_location": ""
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "conversation_start",
+      "digress_in": "does_not_return",
+      "dialog_node": "Start and Initialize Context",
+      "digress_out": "allow_all"
+    }
+  ],
+  "workspace_id": "3a3fb1eb-7485-4958-920a-9b0978ba0ed2",
+  "counterexamples": [],
+  "learning_opt_out": false,
+  "status": "Available"
+}
